@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding-bottom: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+canvas {
+    border: 1px solid #ccc;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
