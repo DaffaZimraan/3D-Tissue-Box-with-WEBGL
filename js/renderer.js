@@ -124,8 +124,11 @@ class TissueBoxRenderer {
         mat4.perspective(matrix, Math.PI / 4, gl.canvas.width / gl.canvas.height, 0.1, 100.0);
         mat4.translate(matrix, matrix, [0, 0, -3]);
         
-        this.angleX += 0.01;
-        this.angleY += 0.01;
+        if (!window.freeze) {
+            this.angleX += 0.01;
+            this.angleY += 0.01;
+        }
+
         mat4.rotateX(matrix, matrix, this.angleX);
         mat4.rotateY(matrix, matrix, this.angleY);
 
