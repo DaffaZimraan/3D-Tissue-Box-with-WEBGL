@@ -10,4 +10,4 @@ A 3D animated tissue box visualization created using WebGL. The project demonstr
 
 ## 🚀 Live Demo
 
-test
+https://daffazimraan.github.io/3D-Tissue-Box-with-WEBGL/
